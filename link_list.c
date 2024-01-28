@@ -35,6 +35,11 @@ int main()
     n2.next = &n1;
     n1.next = NULL;
 
+    node n4;
+    n4.value = 13;
+    n4.next = &n3;
+    head = &n4;
+    printlist(head);
 
     return 0;
 
